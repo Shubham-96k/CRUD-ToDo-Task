@@ -90,7 +90,7 @@ const todotemplating = ele => {
     let result = "<ul class ='list-group font-weight-bold'>"
     ele.forEach(eve => {
         result += `
-            <li class ="list-group-item p-3 d-flex justify-content-between align-items-center" id="${eve.todoId}">
+            <li class ="list-group-item p-3 d-flex justify-content-between align-items-center licontainer" id="${eve.todoId}">
                 <span>${eve.todoItem}</span>
                 <span>
                 <button class="btn btn-primary" onclick=onEdit(this)>Edit</button>
